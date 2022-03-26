@@ -1,0 +1,38 @@
+body {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.navigation {
+    background-color: black;
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    margin: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    
+}
+.navigation li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
